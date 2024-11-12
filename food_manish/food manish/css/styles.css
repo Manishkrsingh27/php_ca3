@@ -1,0 +1,237 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #f44336;
+  }
+  
+  /* Header and Navbar */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #ff9800, #f44336);
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    font-size: 1.8em;
+    margin: 0;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  nav a.btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  nav a.btn:hover {
+    background-color: #fff;
+    color: #ff9800;
+    box-shadow: 0 4px 8px rgba(255, 152, 0, 0.3);
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+  }
+  
+  .hero h2 {
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hero-btn {
+    display: inline-block;
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .hero-btn:hover {
+    background-color: #f44336;
+  }
+  
+  /* Featured Dishes */
+  .featured {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .featured .dishes {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .featured .dish {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .featured .dish img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .featured h3 {
+    color: #ff9800;
+  }
+  
+  /* How It Works Section */
+  .how-it-works {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .how-it-works .steps {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .how-it-works .step {
+    width: 30%;
+    padding: 10px;
+  }
+  
+  /* Customer Reviews */
+  .reviews {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .review {
+    margin: 20px;
+    font-style: italic;
+  }
+  
+  .review h4 {
+    color: #f44336;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+  }
+  
+  footer a {
+    color: #ff9800;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  footer a:hover {
+    color: #f44336;
+  }
+  
+
+
+  /* General Menu Section Styles */
+.menu-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .menu-section h2 {
+    font-size: 2em;
+    color: #ff9800;
+    margin-bottom: 20px;
+  }
+  
+  /* Menu Grid */
+  .menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Individual Menu Item Card */
+  .menu-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .menu-item p {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+  
+  .menu-item .price {
+    font-size: 1em;
+    color: #f44336;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Hover Effect */
+  .menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .menu-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
